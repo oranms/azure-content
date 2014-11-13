@@ -8,24 +8,24 @@ This document depicts how to onboard your service or application to use Azure ML
 
 ##Contents
 
-* General Overview	
-* Limitations	        
-* Integration	        
-  * Authentication	
-  *	Service URI	    
-  *	API Version	    
-  *	Create a model	
-  *	Import catalog data	
-  *	Import usage data	
-     * Uploading file	
-	 * Using data acquisition	
-* Build a recommendation model	
-* Get Build Status	
-* Get Recommendations	
-* Update Model	
-* Legal	
+- [General Overview](#general-overview)
+- [Limitations](#limitations)
+- [Integration](#integration)
+	- [Authentication](#authentication)
+	- [Service URI](#service-uri)
+	- [API Version](#api-version)
+	- [Create a model](#create-a-model)
+	- [Import catalog data](#import-catalog-data)
+	- [Import usage data](#import-usage-data)
+		- [Uploading file](#uploading-file)
+		- [Using data acquisition](#using-data-acquisition)
+	- [Build a recommendation model](#build-a-recommendation-model)
+	- [Get Builds Status of a Model](#get-builds-status-of-a-model)
+	- [Get Recommendations](#get-recommendations)
+	- [Update Model](#update-model)
+- [Legal](#legal)
 
- 
+
 ##General Overview
 
 To use Azure ML Recommendations you need to do the following steps:
@@ -634,4 +634,3 @@ This document does not provide you with any legal rights to any intellectual pro
 [7]: ./media/machine-learning-recommendation-api-quick-start-guide/Table06.png
 [8]: ./media/machine-learning-recommendation-api-quick-start-guide/Table07.png
 [9]: ./media/machine-learning-recommendation-api-quick-start-guide/Table08.png
-
